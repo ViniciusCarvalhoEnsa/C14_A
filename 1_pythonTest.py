@@ -89,7 +89,7 @@ import matplotlib.pyplot as plt #importa a biblioteca de plotagem
 import seaborn as sns           #importa a biblioteca de plotagem
 
 sns.scatterplot(x = x[:,2], y = x[:,3], hue = y, palette = 'tab10') #gera um gráfico de dispersão com os dados de entrada
-plt.xlabel('comprimento (km)',fontsize =16)                         #adiciona o título do eixo x
+plt.xlabel('comprimento (m)',fontsize =16)                         #adiciona o título do eixo x
 plt.ylabel('largura (km)', fontsize=16)                             #adiciona o título do eixo y
 plt.title('Distribuição pétalas', fontsize = 18)                    #adiciona o título do gráfico
 plt.show()                                                          #exibe o gráfico

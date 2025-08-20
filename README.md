@@ -28,3 +28,8 @@ Comandos do gerenciador de deps:
 - pipenv sync                 # instalar exatamente o que está no Pipfile.lock
 - pipenv --venv               # caminho do venv
 - pipenv --rm                 # deletar o venv (reset)
+
+
+Fork ------------------------------------------------------------------------------------------------------------------------
+Uma branch request foi realizada pelo outro usuário gerando conflito, ambos alterando o título de um gráfico gerado pelo MLP.
+O conflito foi resolvido pelo dono original do arquivo, commitado e comentado posteriormente. 
